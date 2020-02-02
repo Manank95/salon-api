@@ -1,0 +1,35 @@
+{
+  "name": "salon-api",
+  "version": "1.0.0",
+  "description": "Salon Backend API",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "startLocal": "nodemon -r dotenv/config app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manank95/salon-api.git"
+  },
+  "author": "Dharmik Shah, Manank Valand",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Manank95/salon-api/issues"
+  },
+  "homepage": "https://github.com/Manank95/salon-api#readme",
+  "dependencies": {
+    "aws-sdk": "^2.610.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "colors": "^1.4.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.2",
+    "mongoose": "^5.8.11"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2"
+  }
+}
